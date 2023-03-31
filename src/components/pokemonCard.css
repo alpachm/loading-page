@@ -1,0 +1,28 @@
+.card-pokemon{
+    display: grid;
+    gap:1rem;
+    background:white;
+    cursor: pointer;
+
+    transition: transform 300ms;
+}
+
+.card-pokemon:hover{
+    transform: scale(1.05);
+}
+
+.card-pokemon h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+
+.info-pokemon img{
+    width: 70%;
+    margin:auto;
+}
+
+.info-pokemon h2{
+    text-align: center;
+    font-size: 2rem;
+}
